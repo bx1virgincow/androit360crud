@@ -1,0 +1,72 @@
+.appbar-main-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+    padding: 1rem;
+}
+.appbar-list-container > button{
+    margin-right: .5rem;
+    padding: .5rem;
+}
+.appbar-list-container>button{
+    border: none;
+    border-radius: .2rem;
+    background-color: goldenrod;
+    color: teal;
+}
+.todo-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+.todo-form{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-div{
+    margin: 1rem;
+}
+input[type=text]{
+    width: 15rem;
+    height: 2rem;
+    padding: 1rem;
+    border: none;
+    border-radius: .2rem;
+}
+.description-area{
+    width: 15rem;
+    height: 5rem;
+    resize: none;
+    border: none;
+    border-radius: .2rem;
+    padding: 1rem;
+}
+input[type=date]{
+    padding: .5rem;
+    border: none;
+    border-radius: .2rem;
+    width: 15rem;
+}
+.button-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.todo-form-button{
+    border: none;
+    padding: .4rem;
+    width: 6.6rem;
+    border-radius: .2rem;
+    margin-bottom: 1rem;
+    background-color: goldenrod;
+    color: teal;
+}
